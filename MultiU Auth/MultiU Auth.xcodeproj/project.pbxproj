@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E477FDD2BDFE236005DDF59 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E477FDC2BDFE236005DDF59 /* RegistrationView.swift */; };
+		4E477FDF2BDFE57B005DDF59 /* TwoFactorAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E477FDE2BDFE57B005DDF59 /* TwoFactorAuthView.swift */; };
+		4E6599692BDD8D32007BBD4E /* MultiU_AuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6599682BDD8D32007BBD4E /* MultiU_AuthApp.swift */; };
+		4E65996D2BDD8D34007BBD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E65996C2BDD8D34007BBD4E /* Assets.xcassets */; };
+		4E6599712BDD8D34007BBD4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6599702BDD8D34007BBD4E /* Preview Assets.xcassets */; };
+		4E65997B2BDD8D34007BBD4E /* MultiU_AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E65997A2BDD8D34007BBD4E /* MultiU_AuthTests.swift */; };
+		4E6599852BDD8D34007BBD4E /* MultiU_AuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6599842BDD8D34007BBD4E /* MultiU_AuthUITests.swift */; };
+		4E6599872BDD8D34007BBD4E /* MultiU_AuthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6599862BDD8D34007BBD4E /* MultiU_AuthUITestsLaunchTests.swift */; };
+		4E6599942BDD8D71007BBD4E /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6599932BDD8D71007BBD4E /* LogInView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E6599772BDD8D34007BBD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E65995D2BDD8D32007BBD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6599642BDD8D32007BBD4E;
+			remoteInfo = "MultiU Auth";
+		};
+		4E6599812BDD8D34007BBD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E65995D2BDD8D32007BBD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6599642BDD8D32007BBD4E;
+			remoteInfo = "MultiU Auth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E477FDC2BDFE236005DDF59 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		4E477FDE2BDFE57B005DDF59 /* TwoFactorAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFactorAuthView.swift; sourceTree = "<group>"; };
+		4E6599652BDD8D32007BBD4E /* MultiU Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiU Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6599682BDD8D32007BBD4E /* MultiU_AuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiU_AuthApp.swift; sourceTree = "<group>"; };
+		4E65996C2BDD8D34007BBD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E65996E2BDD8D34007BBD4E /* MultiU_Auth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultiU_Auth.entitlements; sourceTree = "<group>"; };
+		4E6599702BDD8D34007BBD4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E6599762BDD8D34007BBD4E /* MultiU AuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MultiU AuthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E65997A2BDD8D34007BBD4E /* MultiU_AuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiU_AuthTests.swift; sourceTree = "<group>"; };
+		4E6599802BDD8D34007BBD4E /* MultiU AuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MultiU AuthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6599842BDD8D34007BBD4E /* MultiU_AuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiU_AuthUITests.swift; sourceTree = "<group>"; };
+		4E6599862BDD8D34007BBD4E /* MultiU_AuthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiU_AuthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E6599932BDD8D71007BBD4E /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E6599622BDD8D32007BBD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6599732BDD8D34007BBD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E65997D2BDD8D34007BBD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E477FE22BE022CF005DDF59 /* MultiU Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E477FDC2BDFE236005DDF59 /* RegistrationView.swift */,
+				4E477FDE2BDFE57B005DDF59 /* TwoFactorAuthView.swift */,
+			);
+			path = "MultiU Views";
+			sourceTree = "<group>";
+		};
+		4E65995C2BDD8D32007BBD4E = {
+			isa = PBXGroup;
+			children = (
+				4E477FE22BE022CF005DDF59 /* MultiU Views */,
+				4E6599672BDD8D32007BBD4E /* MultiU Auth */,
+				4E6599792BDD8D34007BBD4E /* MultiU AuthTests */,
+				4E6599832BDD8D34007BBD4E /* MultiU AuthUITests */,
+				4E6599662BDD8D32007BBD4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E6599662BDD8D32007BBD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E6599652BDD8D32007BBD4E /* MultiU Auth.app */,
+				4E6599762BDD8D34007BBD4E /* MultiU AuthTests.xctest */,
+				4E6599802BDD8D34007BBD4E /* MultiU AuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E6599672BDD8D32007BBD4E /* MultiU Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4E6599932BDD8D71007BBD4E /* LogInView.swift */,
+				4E6599682BDD8D32007BBD4E /* MultiU_AuthApp.swift */,
+				4E65996C2BDD8D34007BBD4E /* Assets.xcassets */,
+				4E65996E2BDD8D34007BBD4E /* MultiU_Auth.entitlements */,
+				4E65996F2BDD8D34007BBD4E /* Preview Content */,
+			);
+			path = "MultiU Auth";
+			sourceTree = "<group>";
+		};
+		4E65996F2BDD8D34007BBD4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E6599702BDD8D34007BBD4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E6599792BDD8D34007BBD4E /* MultiU AuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E65997A2BDD8D34007BBD4E /* MultiU_AuthTests.swift */,
+			);
+			path = "MultiU AuthTests";
+			sourceTree = "<group>";
+		};
+		4E6599832BDD8D34007BBD4E /* MultiU AuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E6599842BDD8D34007BBD4E /* MultiU_AuthUITests.swift */,
+				4E6599862BDD8D34007BBD4E /* MultiU_AuthUITestsLaunchTests.swift */,
+			);
+			path = "MultiU AuthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E6599642BDD8D32007BBD4E /* MultiU Auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E65998A2BDD8D34007BBD4E /* Build configuration list for PBXNativeTarget "MultiU Auth" */;
+			buildPhases = (
+				4E6599612BDD8D32007BBD4E /* Sources */,
+				4E6599622BDD8D32007BBD4E /* Frameworks */,
+				4E6599632BDD8D32007BBD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiU Auth";
+			productName = "MultiU Auth";
+			productReference = 4E6599652BDD8D32007BBD4E /* MultiU Auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E6599752BDD8D34007BBD4E /* MultiU AuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E65998D2BDD8D34007BBD4E /* Build configuration list for PBXNativeTarget "MultiU AuthTests" */;
+			buildPhases = (
+				4E6599722BDD8D34007BBD4E /* Sources */,
+				4E6599732BDD8D34007BBD4E /* Frameworks */,
+				4E6599742BDD8D34007BBD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E6599782BDD8D34007BBD4E /* PBXTargetDependency */,
+			);
+			name = "MultiU AuthTests";
+			productName = "MultiU AuthTests";
+			productReference = 4E6599762BDD8D34007BBD4E /* MultiU AuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E65997F2BDD8D34007BBD4E /* MultiU AuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6599902BDD8D34007BBD4E /* Build configuration list for PBXNativeTarget "MultiU AuthUITests" */;
+			buildPhases = (
+				4E65997C2BDD8D34007BBD4E /* Sources */,
+				4E65997D2BDD8D34007BBD4E /* Frameworks */,
+				4E65997E2BDD8D34007BBD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E6599822BDD8D34007BBD4E /* PBXTargetDependency */,
+			);
+			name = "MultiU AuthUITests";
+			productName = "MultiU AuthUITests";
+			productReference = 4E6599802BDD8D34007BBD4E /* MultiU AuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E65995D2BDD8D32007BBD4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4E6599642BDD8D32007BBD4E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4E6599752BDD8D34007BBD4E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4E6599642BDD8D32007BBD4E;
+					};
+					4E65997F2BDD8D34007BBD4E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4E6599642BDD8D32007BBD4E;
+					};
+				};
+			};
+			buildConfigurationList = 4E6599602BDD8D32007BBD4E /* Build configuration list for PBXProject "MultiU Auth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E65995C2BDD8D32007BBD4E;
+			packageReferences = (
+				4E6599A22BDD9824007BBD4E /* XCRemoteSwiftPackageReference "SwiftOTP" */,
+			);
+			productRefGroup = 4E6599662BDD8D32007BBD4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E6599642BDD8D32007BBD4E /* MultiU Auth */,
+				4E6599752BDD8D34007BBD4E /* MultiU AuthTests */,
+				4E65997F2BDD8D34007BBD4E /* MultiU AuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E6599632BDD8D32007BBD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6599712BDD8D34007BBD4E /* Preview Assets.xcassets in Resources */,
+				4E65996D2BDD8D34007BBD4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6599742BDD8D34007BBD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E65997E2BDD8D34007BBD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E6599612BDD8D32007BBD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6599942BDD8D71007BBD4E /* LogInView.swift in Sources */,
+				4E477FDF2BDFE57B005DDF59 /* TwoFactorAuthView.swift in Sources */,
+				4E477FDD2BDFE236005DDF59 /* RegistrationView.swift in Sources */,
+				4E6599692BDD8D32007BBD4E /* MultiU_AuthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6599722BDD8D34007BBD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E65997B2BDD8D34007BBD4E /* MultiU_AuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E65997C2BDD8D34007BBD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6599872BDD8D34007BBD4E /* MultiU_AuthUITestsLaunchTests.swift in Sources */,
+				4E6599852BDD8D34007BBD4E /* MultiU_AuthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E6599782BDD8D34007BBD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6599642BDD8D32007BBD4E /* MultiU Auth */;
+			targetProxy = 4E6599772BDD8D34007BBD4E /* PBXContainerItemProxy */;
+		};
+		4E6599822BDD8D34007BBD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6599642BDD8D32007BBD4E /* MultiU Auth */;
+			targetProxy = 4E6599812BDD8D34007BBD4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E6599882BDD8D34007BBD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E6599892BDD8D34007BBD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4E65998B2BDD8D34007BBD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MultiU Auth/MultiU_Auth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiU Auth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emman.MultiU-Auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E65998C2BDD8D34007BBD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MultiU Auth/MultiU_Auth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiU Auth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emman.MultiU-Auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E65998E2BDD8D34007BBD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emman.MultiU-AuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiU Auth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultiU Auth";
+			};
+			name = Debug;
+		};
+		4E65998F2BDD8D34007BBD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emman.MultiU-AuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiU Auth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultiU Auth";
+			};
+			name = Release;
+		};
+		4E6599912BDD8D34007BBD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emman.MultiU-AuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MultiU Auth";
+			};
+			name = Debug;
+		};
+		4E6599922BDD8D34007BBD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emman.MultiU-AuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MultiU Auth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E6599602BDD8D32007BBD4E /* Build configuration list for PBXProject "MultiU Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6599882BDD8D34007BBD4E /* Debug */,
+				4E6599892BDD8D34007BBD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E65998A2BDD8D34007BBD4E /* Build configuration list for PBXNativeTarget "MultiU Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E65998B2BDD8D34007BBD4E /* Debug */,
+				4E65998C2BDD8D34007BBD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E65998D2BDD8D34007BBD4E /* Build configuration list for PBXNativeTarget "MultiU AuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E65998E2BDD8D34007BBD4E /* Debug */,
+				4E65998F2BDD8D34007BBD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6599902BDD8D34007BBD4E /* Build configuration list for PBXNativeTarget "MultiU AuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6599912BDD8D34007BBD4E /* Debug */,
+				4E6599922BDD8D34007BBD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E6599A22BDD9824007BBD4E /* XCRemoteSwiftPackageReference "SwiftOTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lachlanbell/SwiftOTP.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 4E65995D2BDD8D32007BBD4E /* Project object */;
+}
